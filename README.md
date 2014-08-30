@@ -1,7 +1,7 @@
 Injects
 =======
 
-**This is a control center for these projects.**
+**This is a control center for the injects projects.**
 
 Below a list of all projects related to byte code weaving on Android.
 
