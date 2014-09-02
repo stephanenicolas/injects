@@ -38,3 +38,9 @@ Below a list of all projects related to byte code weaving on Android.
 ### Other byte code weaving Android Libraries : 
 
 * [Hugo](//github.com/jakewharton/hugo)
+
+### Other stuff related to this technology : 
+
+* https://github.com/robolectric/robolectric/pull/1249 (need to test inject extra fully)
+* https://github.com/robolectric/robolectric/pull/1240 (needed to test weaved byte code via robolectric, should not be needed to test apps written with the injects plugin though, only the libs themselves)
+* (a patch is currently pending in javassist to load annotations thanks to the ClassPool's classpath, not from its classloader's classpath. TODO Once the patch is PR, reference it here.)
